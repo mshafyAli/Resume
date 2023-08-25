@@ -86,6 +86,90 @@ function Hi() {
             </p>
           </div>
 
+          <div className="about">
+            <h2 className='title2'>Experience</h2>
+            <div className="box">
+              <div className="year-company">
+              <h5>2023 - present</h5>
+              <h5>company Name</h5>
+              </div>
+              <div className="text">
+                <h4>Junior web Devloper</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quis eius ad nostrum nihil nulla optio nesciunt enim maxime labore tenetur modi quidem quos laudantium, dolor veritatis, et iusto hic.</p>
+              </div>
+            </div>
+
+
+            <div className="box">
+              <div className="year-company">
+              <h5>2023 - present</h5>
+              <h5>company Name</h5>
+              </div>
+              <div className="text">
+                <h4>Junior web Devloper</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quis eius ad nostrum nihil nulla optio nesciunt enim maxime labore tenetur modi quidem quos laudantium, dolor veritatis, et iusto hic.</p>
+              </div>
+            </div>
+
+            <div className="box">
+              <div className="year-company">
+              <h5>2023 - present</h5>
+              <h5>company Name</h5>
+              </div>
+              <div className="text">
+                <h4>Junior web Devloper</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quis eius ad nostrum nihil nulla optio nesciunt enim maxime labore tenetur modi quidem quos laudantium, dolor veritatis, et iusto hic.</p>
+              </div>
+            </div>
+            
+
+
+
+
+          </div>
+
+          <div className="about skills">
+
+          <h2 className="title2">Professional Skills</h2>
+          <div className="box">
+            <h4>Html</h4>
+          </div>
+          <div className="box">
+            <h4>CSS</h4>
+          </div>
+          <div className="box">
+            <h4>JavaScript</h4>
+          </div>
+          <div className="box">
+            <h4>NodeJS</h4>
+          </div>
+          <div className="box">
+            <h4>Expree Js</h4>
+          </div>
+          
+          <div className="box">
+            <h4>MongoDb</h4>
+          </div>
+          
+          <div className="box">
+            <h4>My Sql</h4>
+          </div>
+          
+          <div className="box">
+            <h4>React JS</h4>
+          </div>
+          
+
+          </div>
+
+          <div className="about interes"></div>
+            <h2 className='title2'>Hoobies</h2>
+            <ul>
+              <li>Cricket</li>
+              <li>Footboll</li>
+              <li>Badminton</li>
+              <li>Singing</li>
+            </ul>
         </div>
       </div>
 

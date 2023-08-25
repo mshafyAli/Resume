@@ -108,3 +108,58 @@ body{
   background: #fff;
   padding: 40px;
 } 
+.about{
+  margin-bottom: 50px;
+}
+.title2{
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+p{
+  color: #003147;
+}
+.about .box{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.about .box .year-company{
+  min-width: 150px;
+}
+
+.about .box .year-company h5{
+  text-transform: uppercase;
+  color: #003147;
+  font-weight: 600;
+}
+.about .box .text h4{
+  text-transform: uppercase;
+  color: #2a7da2;
+  font-size: 16px;
+}
+
+
+/* @media (max-width:1000px){
+.container{
+  margin: 10px;
+}
+} */
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    flex-direction: column; /* Stack content vertically in mobile */
+  }
+
+  .container .left-side {
+    flex: 100%; /* Adjust the left-side width for smaller screens */
+    order: 1; /* Change the order to appear on top */
+  }
+
+  .container .right-side {
+    flex: 100%; /* Adjust the right-side width for smaller screens */
+    order: 2; /* Change the order to appear below */
+  }
+}
